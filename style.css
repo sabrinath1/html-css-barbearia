@@ -1,5 +1,5 @@
 header {
-	background: ##D3D3D3;
+	background: #D3D3D3;
 	padding: 20px 0;
 }
 
@@ -30,48 +30,64 @@ nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
 }
-#banner {
+.banner {
 	width:100%;
 }
 
-.principal{
+.mainHome {
 	background: #CCCCCC;
 	padding: 30px;
 }
-.titulo-centralizado {
-	text-align: center
+.centralizedTitle {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
 }
-
+.mainHome p {
+	margin: 0 0 1em;
+}
+.mainHome strong {
+	font-weight: bold;
+}
+.mainHome em {
+	font-style: italic;
+}
+.utensils {
+width: 120px;
+float: left;
+margin: 0 20px 20px 0;
+}
 p {
 	text-align: center;
 }
 
-#missao {
+.mission {
 	font-size: 20px
 }
 
 em strong {
-	color: #FF0000;
+	color: #000000;
 }
 
 .itens {
 	font-style: italic
 }
 
-.beneficios {
+.benefits {
 	background: #FFFFFF;
 	padding: 20px;
 }
 
-.beneficios2 {
+.benefits2 {
 		display: inline-block;
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
 }
 
-.imagembeneficios {
-	width: 50%;
+.imgBenefits {
+	width: 60%;
 }
 footer {
 	text-align: center;
