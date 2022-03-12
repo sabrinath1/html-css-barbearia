@@ -91,3 +91,28 @@ td , th {
 	font-size: 13px;
 	margin: 20px 0;
 }
+@media screen and (max-width: 480px) {
+	.toSend{
+		width: 60%;
+		position: static;
+			background: orange;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		border: none;
+		border-radius: 5px;
+		transition: 1s all;
+		cursor: pointer;
+		}
+	.box3, .mainHome, .formContent {
+		width:auto ;
+	}
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	
+	
+}
