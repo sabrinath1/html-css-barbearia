@@ -124,3 +124,17 @@ footer {
 	font-size: 13px;
 	margin: 20px 0;
 }
+@media screen and (max-width: 480px) {
+	.box2, .mainHome,.contentBenefits, .mapContent, .video  {
+		width:auto ;
+	}
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.benefits2, .imgBenefits{
+		width: 100%;
+	}
+}
